@@ -290,8 +290,7 @@ fn main() {
     let model = model.trim();
 
     let output_opt = match (vendor, model) {
-        ("System76", "addw1") => Some("eDP-1"),
-        ("System76", "addw2") => Some("eDP-1"),
+        ("Razer", "5.04") => Some("eDP-1"),
         _ => None,
     };
 
